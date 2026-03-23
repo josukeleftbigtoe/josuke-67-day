@@ -21,6 +21,30 @@
         bob {
             color: rgb(0, 244, 163);
         }
+        ul{
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+        }
+        ul li a {
+            color:red
+        text-decoration:none;
+        display:block;
+        background:pink;
+        width: 150px;
+        height: 30px;
+        margin: 20px;
+        border: 1px solid black;
+        border: radius 20px;
+        box-shadow:5px 5px 20px gray;
+        transition: box-shadow 1s, color .5s, background 1s;
+        }
+        ul li a:hover{
+            background: red;
+            color: white;
+            border-radius: 0px;
+            box-shadow:5px 5px 5px rgb(58, 2, 2);
+        }
     </style>
 </head>
 
@@ -29,8 +53,11 @@
     <p>class="bob">welcom to my page</p>
     <p>welcome to my page</p>
     <p>check out my stuff</p>
-    <ul> </ul>
-    <li><a href="text.html">text page</a> </a></li>
-    <ul></ul>
+    <ul>
+    <li><a href="text.html">text</a> </a></li>
+    <li><a href="README.md">README</a> </a></li>
+    <li><a href="quotes.html">quotes2</a> </a></li>
+    <li><a href="boxs.html">box</a> </a></li>
+    </ul>
 
 </html>
