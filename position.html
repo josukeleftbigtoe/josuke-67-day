@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+<title>mister chad's demo page</title>
+    <style>
+div{
+    width: 250px;
+    height: 250px;
+    background: rgb(50, 0, 0);
+    margin: 50px;
+    background-image: url(chuu.gif);
+}
+#static{
+    background: rgb(125, 9, 28);
+    position: static;/*default*/
+      border: 10px solid rgb(0, 40, 20);
+      width: 200px;
+      height: 200px;
+      padding: 20px;
+      margin: 50px;
+      border-radius: 00px;
+}
+#Sticky{
+    background: rgba(255, 255, 255, 0.524);
+    position:sticky ;
+      border: 10px solid rgb(0, 0, 0);
+      width: 200px;
+      height: 200px;
+      padding: 20px;
+      margin: 50px;
+      border-radius: 00px;
+}
+#relative{
+    background: rgba(255, 0, 0, 0.579);
+    position: relative;
+    left: 100px;
+    top: -100px;
+    z-index: -5;
+      border: 10px solid rgb(0, 0, 0);
+      width: 200px;
+      height: 200px;
+      padding: 20px;
+      margin: 50px;
+      border-radius: 00px;
+}
+#fixed{
+    background-image: url(chuu.gif);
+    position: fixed;
+    top: 0;
+    left: 140px;
+      border: 10px solid rgb(0, 0, 0);
+      width: 200px;
+      height: 200px;
+      padding: 20px;
+      margin: 50px;
+      border-radius: 00px;
+}
+#absolute{
+    background: rgba(0, 123, 255, 0.394);
+    position: absolute;
+    left: 200px;
+    top: 300px;
+    bottom: -300px;
+      border: 10px solid rgb(0, 0, 0);
+      width: 200px;
+      height: 200px;
+      padding: 20px;
+      margin: 50px;
+      border-radius: 00px;
+}
+
+    </style>
+</head>
+
+<body>
+<div id="static"></div>
+<div id="Sticky"></div>
+<div id="relative"></div>
+<div id="fixed"></div>
+<div id="absolute"></div>
+
+</body>
+
+</html>
